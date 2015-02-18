@@ -26,7 +26,7 @@
     "jsxhint": "^0.6.0",
     "mocha": "^1.18.2",
     "mochify": "^1.1.0",
-    "react": "^0.12.0",
+    "react": "git://github.com/zpao/react#a692ee85cfe1a8de1199b9de4e3d66907f3905bc",
     "react-tools": "^0.12.2",
     "sinon": "^1.9.1"
   },
