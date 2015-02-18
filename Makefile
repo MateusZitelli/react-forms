@@ -9,7 +9,7 @@ lint:
 
 build:
 	@mkdir -p dist
-	@$(BIN)/jsx lib/ dist/
+	@$(BIN)/jsx --harmony --es5 lib/ dist/
 
 clean:
 	@rm -rf ./node_modules/
