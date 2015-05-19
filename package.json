@@ -3,7 +3,7 @@
   "version": "1.0.0-rc3",
   "description": "Forms library for React",
   "homepage": "http://prometheusresearch.github.io/react-forms/",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "make test"
   },
@@ -26,27 +26,13 @@
     "jsxhint": "^0.6.0",
     "mocha": "^1.18.2",
     "mochify": "^1.1.0",
-    "react": "^0.12.0",
+    "react": "git://github.com/zpao/react#a692ee85cfe1a8de1199b9de4e3d66907f3905bc",
+    "react-tools": "^0.12.2",
     "sinon": "^1.9.1"
-  },
-  "browserify": {
-    "transform": [
-      [
-        "reactify",
-        {
-          "es6": true,
-          "target": "es5",
-          "stripTypes": true
-        }
-      ]
-    ]
   },
   "author": "Prometheus Research",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/prometheusresearch/react-forms/issues"
-  },
-  "dependencies": {
-    "reactify": "^0.17.1"
   }
 }
